@@ -31,6 +31,11 @@
   + lemmas `le_mu_ext`, `mu_ext_ge0`, `mu_ext0`, `measurable_uncurry`,
     `mu_ext_sigma_subadditive`
   + canonical `outer_measure_of_measure`
+- in `ereal.v`:
+  + lemmas `ge0_adde_def`, `onee_neq0`, `mule0`, `mul0e`
+  + lemmas `mulrEDr`, `mulrEDl`, `ge0_muleDr`, `ge0_muleDl`
+  + lemmas `sume_distrl`, `sume_distrr`
+  + lemmas `mulEFin`, `mule_neq0`, `mule_ge0`, `muleA`
 
 ### Changed
 
@@ -110,6 +115,8 @@
   + lemmas `inf_lb_strict`, `sup_ub_strict`
 - moved from `sequences.v` to `reals.v`:
   + lemma `has_ub_image_norm`
+- in `ereal.v`:
+  + change defintion `mule` such that 0 x oo = 0
 
 ### Renamed
 
