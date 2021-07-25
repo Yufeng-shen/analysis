@@ -36,6 +36,7 @@
   + lemmas `mulrEDr`, `mulrEDl`, `ge0_muleDr`, `ge0_muleDl`
   + lemmas `sume_distrl`, `sume_distrr`
   + lemmas `mulEFin`, `mule_neq0`, `mule_ge0`, `muleA`
+  + lemma `muleE`
 
 ### Changed
 
