@@ -2325,10 +2325,10 @@ move=> r0; move=> [x| |] /=.
     rewrite mulEFin; apply: cvg_trans; apply: near_eq_cvg; near=> y.
     by rewrite mulEFin.
   exact: (cvg_comp (@scaler_continuous _ _ _ _)).
-- rewrite muleC muleE eqe gt_eqF// lte_fin r0 => A [u [realu uA]].
+- rewrite muleC /mule/= eqe gt_eqF// lte_fin r0 => A [u [realu uA]].
   exists (r^-1 * u); split; first by rewrite realM// realV// realE (ltW r0).
   by move=> x rux; apply uA; move: rux; rewrite mulEFin lte_pdivr_mull.
-- rewrite muleC muleE eqe gt_eqF// lte_fin r0 => A [u [realu uA]].
+- rewrite muleC /mule/= eqe gt_eqF// lte_fin r0 => A [u [realu uA]].
   exists (r^-1 * u); split; first by rewrite realM// realV// realE (ltW r0).
   by move=> x xru; apply uA; move: xru; rewrite mulEFin lte_pdivl_mull.
 Grab Existential Variables. all: end_near. Qed.
