@@ -37,6 +37,8 @@
   + lemmas `sume_distrl`, `sume_distrr`
   + lemmas `mulEFin`, `mule_neq0`, `mule_ge0`, `muleA`
   + lemma `muleE`
+  + lemmas `muleN`, `mulNe`, `muleNN`, `gee_pmull`, `lee_addgt0Pr`
+  + lemmas `lte_pdivr_mull`, `lte_pdivl_mull`, `mule_continuous`
 
 ### Changed
 
